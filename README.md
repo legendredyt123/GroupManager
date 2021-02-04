@@ -15,7 +15,7 @@ You can also join our support group [here!](https://t.me/black_legend_support)
 [Join Discuss Group](https://t.me/black_legend_support)
 
 # Report error
-Report your problem along with your name to [this person](https://t.me/phantomredxd)
+Report your problem along with your name to [this person](https://t.me/alain_champion)
 
 # Credits
 This repo is just a custom fork of [HarukaAya](https://gitlab.com/HarukaNetwork/OSS/HarukaAya)
