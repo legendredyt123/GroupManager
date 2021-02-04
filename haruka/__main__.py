@@ -20,9 +20,21 @@ from haruka.modules.helper_funcs.misc import paginate_modules
 from haruka.modules.translations.strings import tld, tld_help 
 from haruka.modules.connection import connected
 
-PM_START_TEXT = """
-Hi {}, my name is {}! 
+PM_START = """ Hi {}, my name is {}! 
+
+You Know How Hard To Manage Your Groups some time is, So this Is the bot to help you. Feel Free to Use it
+
 I am a Superb Group Management Bot.
+
+Activate Anti-spam protection in your BM by this command : 
+/antispam on 
+
+Made From Source Code of [Alain 💥](t.me/alain_champion)
+
+Special Thanks to [Red ⚡](t.me/phantomredxd)
+
+Assisted By [Red](t.me/phantomredxd)
+
 You can find my list of available commands with /help.
 """
 
