@@ -20,19 +20,29 @@ from haruka.modules.helper_funcs.misc import paginate_modules
 from haruka.modules.translations.strings import tld, tld_help 
 from haruka.modules.connection import connected
 
-PM_START = """Hello {}, my name is {}!
-
-You know how hard it is sometimes to manage group so here is the solution for you
-
-I'm Black Legend Bot  Made BY @PhantomRedXD And @infotechbro
-
-Activate Anti-spam protection in your BM by this command : 
-/antispam on 
-
-Click /help or Help button below to find out more about how to use me to my full potential
-
- Add me to a group by clicking [here](http://t.me/BlackLegendUltra_Bot).
+PM_START_TEXT = """
+Hi {}, my name is {}! 
+I am a Superb Group Management Bot.
+You can find my list of available commands with /help.
 """
+
+HELP_STRINGS = """
+Hey there! My name is *{}*.
+I'm a Telegram Group Management Bot and help admins/owners manage their groups in easy way! Have a look at the following for an idea of some of \
+the things I can help you with.
+*Main* commands available:
+ • /help: PM's you this message.
+ • /help <module name>: PM's you info about that module.
+ • /settings:
+   • in PM: will send you your settings for all supported modules.
+   • in a group: will redirect you to pm, with all that chat's settings.
+{}
+And the following:
+""".format(
+    dispatcher.bot.first_name, ""
+    if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n
+
+BLACK LEGEND_IMG : https://telegra.ph/file/eb299db63ed308e352b3a.jpg
 
 
 IMPORTED = {}
